@@ -1,0 +1,7 @@
+name=Workout Playdate
+author=bmarian
+description=Track workouts on the Playdate console
+bundleID=com.bmarian.workoutplaydate
+version=0.1.0
+buildNumber=1
+imagePath=launcher
