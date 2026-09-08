@@ -1,5 +1,5 @@
 import "libraries/noble/Noble"
 
-import "scenes/WelcomeScene"
+import "scenes/LibraryScene"
 
-Noble.new(WelcomeScene)
+Noble.new(LibraryScene)

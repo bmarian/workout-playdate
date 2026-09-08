@@ -1,6 +1,6 @@
-WelcomeScene = {}
-class("WelcomeScene").extends(NobleScene)
-local scene = WelcomeScene
+LibraryScene = {}
+class("LibraryScene").extends(NobleScene)
+local scene = LibraryScene
 
 scene.backgroundColor = Graphics.kColorWhite
 
