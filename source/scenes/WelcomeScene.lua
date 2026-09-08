@@ -2,7 +2,7 @@ WelcomeScene = {}
 class("WelcomeScene").extends(NobleScene)
 local scene = WelcomeScene
 
--- scene.backgroundColor = Graphics.kColorWhite
+scene.backgroundColor = Graphics.kColorWhite
 
 local CENTER_X <const> = 400 // 2
 
