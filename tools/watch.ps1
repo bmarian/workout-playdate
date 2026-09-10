@@ -1,10 +1,7 @@
-# Rebuilds WorkoutPlaydate.pdx whenever a file under source/ changes, since pdc
-# has no watch mode. Press Ctrl-R in the Simulator after each rebuild.
-
 $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $sourceDir = Join-Path $root "source"
-$output = Join-Path $root "WorkoutPlaydate.pdx"
+$output = Join-Path $root "Gymdate.pdx"
 
 function Build {
 	Write-Host "Building..." -ForegroundColor Cyan

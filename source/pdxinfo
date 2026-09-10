@@ -1,6 +1,6 @@
-name=Workout Playdate
+name=Gymdate
 author=bmarian
-description=Track workouts on the Playdate console
+description=Track your workouts on the Playdate!
 bundleID=com.bmarian.workoutplaydate
 version=0.1.0
 buildNumber=1
