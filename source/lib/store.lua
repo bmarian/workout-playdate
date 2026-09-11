@@ -13,10 +13,11 @@ function Store.loadFreeExerciseDb()
 
     local exercises, err = json.decodeFile("data/" .. FREE_EXERCISE_DB)
     if not exercises then
-        print("Failed to load Free Exercise DB " .. tostring(err) .. "\n\n Falling back on user data.")
         Store.exercises = {}
+        print("Failed to load Free Exercise DB " .. tostring(err))
     else
         Store.exercises = exercises
+        print("Succesfully loaded " .. table.getSize(Store.exercises) .. " exercises from Free Exercise DB.")
     end
 
     return Store.exercises
